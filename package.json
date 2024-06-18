@@ -1,18 +1,17 @@
 {
   "name": "webhook-generator",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A simple webhook generator",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "express": "^4.19.2",
-    "mongodb": "^6.7.0",
-    "mongoose": "^8.4.1"
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "mongodb": "^4.1.0"
   },
-  "description": ""
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
